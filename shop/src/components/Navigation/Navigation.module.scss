@@ -1,0 +1,49 @@
+.navbar {
+  position: relative;
+  overflow: hidden;
+  min-height: 40px;
+  background-color: #0b102b;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 125px 125px 125px);
+}
+.navItem {
+  list-style: none;
+  padding: 10px 35px;
+  &Link {
+    text-decoration: none;
+    color: #fff;
+    &Active {
+      font-weight: 100;
+      font-size: 25px;
+      padding: 10px 35px;
+    }
+  }
+}
+
+// .navbar {
+//   position: relative;
+//   min-height: 50px;
+//   background-color: #0b102b;
+// }
+
+.nav {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav > li > a {
+  font-size: 16px;
+  font-weight: 100;
+  padding: 15px 35px;
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
